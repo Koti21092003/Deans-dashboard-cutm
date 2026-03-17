@@ -194,7 +194,7 @@ Developed by **BOTCHU KOTESWARA RAO**
 # 📄 License
 
 This project is licensed under the **MIT License**.
-# 🖥️ Application Preview
+# 🖥️ Application Preview Screenshorts
 ## 🔐 Login Page
 <img width="1837" height="894" alt="image" src="https://github.com/user-attachments/assets/6cbf204d-101c-4060-a489-ec9b93f87624" />
 ## 🏠 Dashboard
