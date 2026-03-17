@@ -1,24 +1,60 @@
-# 📊 Data Visualization Dashboard
+<img width="1911" height="1074" alt="image" src="https://github.com/user-attachments/assets/d8601eb0-7c7a-4747-9830-9916fc9e233e" /><img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/be87009c-7362-491c-8629-d98f08b42844" /># 🎓 Dean's Dashboard – Attendance & Results Management System
 
-An interactive **Data Visualization Dashboard** built using **React.js and Node.js** that allows users to explore data insights through multiple charts and analytics.
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![Express](https://img.shields.io/badge/Framework-Express-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Project-Active-success)
 
-The dashboard displays various visualizations such as **Intensity, Likelihood, Relevance, Region, Sector, Topic, and Country analysis**.
-It includes a **client-side React interface** and a **backend server** that provides data through APIs.
+A **Full Stack Web Application** designed to help **Deans/Admins manage student attendance and results** through an interactive dashboard.
+
+The system provides **attendance monitoring, subject-wise analytics, result uploads, and downloadable PDF reports** through a modern responsive interface.
 
 ---
 
-# 🚀 Features
+# 🚀 Live Demo
 
-* Interactive Dashboard UI
-* Multiple Data Visualizations
-* Intensity Analysis
-* Likelihood Analysis
-* Relevance Chart
-* Sector & Topic Analysis
-* Region and Country Distribution
-* Search Functionality
-* Login Page
-* REST API Backend
+🌐 **Frontend (Vercel)**
+https://deans-dashboard-cutm.vercel.app/
+
+⚙️ **Backend API (Render)**
+https://deans-dashboard-cutm.onrender.com
+
+---
+
+# 🖥️ Application Preview
+
+## 🔐 Login Page
+
+Admin authentication interface for secure access.
+
+## 🏠 Dashboard
+
+Main dashboard displaying navigation and overview.
+
+## 📊 Attendance Module
+
+* Subject-wise attendance
+* Overall attendance analytics
+
+## 📑 Results Module
+
+* Upload results file
+* View generated results
+* Download results as PDF
+
+---
+
+# ✨ Features
+
+✔ Admin Login Authentication
+✔ Interactive Dashboard Interface
+✔ Subject-wise Attendance Monitoring
+✔ Overall Attendance Analytics
+✔ Results Upload System
+✔ PDF Report Generation
+✔ Clean Responsive UI
+✔ Full Stack Architecture
 
 ---
 
@@ -36,18 +72,19 @@ It includes a **client-side React interface** and a **backend server** that prov
 * Node.js
 * Express.js
 
-## Visualization
+## Deployment
 
-* Chart Libraries (Recharts / Chart.js)
+* Vercel (Frontend Hosting)
+* Render (Backend Hosting)
 
 ---
 
 # 📁 Project Structure
 
 ```
-Visualization-Dashboard
+deans-dashboard
 │
-├── client                # React Frontend
+├── client
 │   ├── public
 │   └── src
 │       ├── components
@@ -57,46 +94,36 @@ Visualization-Dashboard
 │       ├── App.js
 │       └── index.js
 │
-├── server                # Node/Express Backend
+├── server
 │   ├── routes
 │   ├── controllers
 │   ├── server.js
 │   └── package.json
 │
-├── README.md
-└── package.json
+└── README.md
 ```
 
 ---
 
 # ⚙️ Installation & Setup
 
-## 1️⃣ Clone the Repository
+Clone the repository
 
-```
-git clone https://github.com/yourusername/visualization-dashboard.git
+```bash
+git clone https://github.com/yourusername/deans-dashboard.git
 ```
 
-```
-cd visualization-dashboard
+Move into the project folder
+
+```bash
+cd deans-dashboard
 ```
 
 ---
 
-# ▶️ Running the Project
+# ▶️ Run Frontend (Client)
 
-The project has **two parts**:
-
-* Client (React Frontend)
-* Server (Node Backend)
-
-You must run **both**.
-
----
-
-## 2️⃣ Start the Client
-
-```
+```bash
 cd client
 npm install
 npm start
@@ -110,17 +137,17 @@ http://localhost:3000
 
 ---
 
-## 3️⃣ Start the Server
+# ▶️ Run Backend (Server)
 
-Open a **new terminal** and run:
+Open another terminal and run:
 
-```
+```bash
 cd server
 npm install
 npm start
 ```
 
-The backend server will run on:
+Backend will run on:
 
 ```
 http://localhost:5000
@@ -128,40 +155,54 @@ http://localhost:5000
 
 ---
 
-# 📊 Dashboard Modules
+# 📊 Modules
 
-The dashboard includes the following visualizations:
+### 🏠 Home
 
-* Intensity Chart
-* Likelihood Chart
-* Relevance Chart
-* Sector Chart
-* Region Chart
-* Topic Chart
-* Country Distribution
-* Search Results
+Dashboard overview and navigation.
 
-These charts help users analyze patterns and trends in the dataset.
+### 📈 Attendance
+
+* Subjectwise attendance tracking
+* Overall attendance analysis
+
+### 📑 Results
+
+* Upload results data
+* Display results
+* Download PDF reports
 
 ---
 
-# 🔮 Future Improvements
+# 🔮 Future Enhancements
 
-* Add authentication with JWT
-* Add advanced filters
+* Student login system
+* Role-based authentication
+* Database integration (MongoDB / MySQL)
+* Data visualization charts
 * Real-time analytics
-* Export charts as PDF
-* Dark mode dashboard
-* Deploy on cloud (AWS / Vercel / Render)
+* Export reports in multiple formats
 
 ---
 
 # 👨‍💻 Author
 
-Developed as a **Full Stack Data Visualization Dashboard Project** using React and Node.js.
+Developed by **BOTCHU KOTESWARA RAO**
 
 ---
 
 # 📄 License
 
 This project is licensed under the **MIT License**.
+# 🖥️ Application Preview
+## 🔐 Login Page
+<img width="1837" height="894" alt="image" src="https://github.com/user-attachments/assets/6cbf204d-101c-4060-a489-ec9b93f87624" />
+## 🏠 Dashboard
+<img width="1912" height="1075" alt="image" src="https://github.com/user-attachments/assets/b7e35c46-583d-44da-8e50-95b34e42c42a" />
+## 📊 Attendance Module
+<img width="1911" height="1074" alt="image" src="https://github.com/user-attachments/assets/b13f0687-4e50-4b19-9f78-60453994e699" />
+
+## 📑 Results Module
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/676cec5e-bb8d-409d-99d0-67688fbe7ccd" />
+
+
