@@ -1,4 +1,4 @@
-<img width="1911" height="1074" alt="image" src="https://github.com/user-attachments/assets/d8601eb0-7c7a-4747-9830-9916fc9e233e" /><img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/be87009c-7362-491c-8629-d98f08b42844" /># 🎓 Dean's Dashboard – Attendance & Results Management System
+# 🎓 Dean's Dashboard – Attendance & Results Management System
 
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![Node](https://img.shields.io/badge/Backend-Node.js-green)
