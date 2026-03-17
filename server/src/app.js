@@ -9,6 +9,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Root test route
+app.get("/", (req, res) => {
+  res.send("Dean Dashboard API Running 🚀");
+});
+
 // MongoDB connection
 //connectDB();
 
